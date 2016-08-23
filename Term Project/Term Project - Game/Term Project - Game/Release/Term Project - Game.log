@@ -1,0 +1,40 @@
+﻿Build started 3/14/2013 1:18:39 AM.
+     1>Project "E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Term Project - Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\AnimatedBowserSprite.cpp" "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\AnimatedSprite.cpp" "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp" "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\ImageManager.cpp" "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\main.cpp" "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\RockFactory.cpp" "..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\RockSprite.cpp"
+         AnimatedBowserSprite.cpp
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\AnimatedBowserSprite.cpp(86): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         AnimatedSprite.cpp
+         Game.cpp
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(49): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(65): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(75): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(80): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(84): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(243): warning C4244: 'initializing' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(244): warning C4244: 'initializing' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(255): warning C4244: 'initializing' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(256): warning C4244: 'initializing' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(257): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Game.cpp(286): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         ImageManager.cpp
+         main.cpp
+         RockFactory.cpp
+         RockSprite.cpp
+     1>..\..\..\..\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\RockSprite.cpp(41): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Release\Term Project - Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\lib\Release" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Release\Term Project - Game.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Release\Term Project - Game.lib" /MACHINE:X86 /SAFESEH Release\AnimatedBowserSprite.obj
+         Release\AnimatedSprite.obj
+         Release\Game.obj
+         Release\ImageManager.obj
+         Release\main.obj
+         Release\RockFactory.obj
+         Release\RockSprite.obj
+         Generating code
+         Finished generating code
+         Term Project - Game.vcxproj -> E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Release\Term Project - Game.exe
+     1>Done Building Project "E:\Documents\OIT Class Materials\CST276 Winter '13\Term Project\Term Project - Game\Term Project - Game\Term Project - Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.70

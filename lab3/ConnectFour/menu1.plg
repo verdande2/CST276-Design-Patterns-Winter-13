@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: menu1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JEREMI~1\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/menu1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Jeremiah Tatro\Desktop\ConnectFour\menu1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JEREMI~1\LOCALS~1\Temp\RSP64.tmp" 
+Creating temporary file "C:\DOCUME~1\JEREMI~1\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/menu1.pdb" /debug /machine:I386 /out:"Debug/menu1.exe" /pdbtype:sept 
+".\Debug\Drawing.obj"
+".\Debug\menu1.obj"
+".\Debug\util.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\JEREMI~1\LOCALS~1\Temp\RSP65.tmp"
+<h3>Output Window</h3>
+Compiling...
+menu1.cpp
+Linking...
+libcpd.lib(locale.obj) : error LNK2005: "public: static class std::locale::id std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::id" (?id@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A) already defined in util.obj
+libcpd.lib(locale.obj) : error LNK2005: "public: static class std::locale::id std::numpunct<char>::id" (?id@?$numpunct@D@std@@2V0locale@2@A) already defined in util.obj
+Drawing.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+util.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Drawing.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+util.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Drawing.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+util.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Drawing.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+util.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+util.obj : error LNK2001: unresolved external symbol "public: void __thiscall std::locale::facet::_Register(void)" (?_Register@facet@locale@std@@QAEXXZ)
+util.obj : error LNK2001: unresolved external symbol "public: __thiscall bad_cast::bad_cast(char const *)" (??0bad_cast@@QAE@PBD@Z)
+util.obj : error LNK2001: unresolved external symbol "public: class std::locale::facet const * __thiscall std::locale::_Getfacet(unsigned int)const " (?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z)
+util.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,struct std::_DebugHeapTag_t const &,char *,int)" (??3@YAXPAXABU_DebugHeapTag_t@std@@PADH@Z)
+util.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+util.obj : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const std::_DebugHeapTag" (?_DebugHeapTag@std@@3U_DebugHeapTag_t@1@B)
+util.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+util.obj : error LNK2001: unresolved external symbol "public: void __thiscall std::_String_base::_Xran(void)const " (?_Xran@_String_base@std@@QBEXXZ)
+util.obj : error LNK2001: unresolved external symbol "public: void __thiscall std::_String_base::_Xlen(void)const " (?_Xlen@_String_base@std@@QBEXXZ)
+util.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+Debug/menu1.exe : fatal error LNK1120: 14 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+menu1.exe - 21 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
